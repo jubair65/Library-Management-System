@@ -33,5 +33,11 @@ A **JavaFX-based desktop application** for managing a small library. Built as pa
 
 > ⚠️ JavaFX setup is required. [Set up JavaFX in IntelliJ](https://openjfx.io/openjfx-docs/)
 
+---
+## 🧑‍💻 Author
+
+**Md. Jubair bin Hasan**  
+📧 Email: Contact for Email 
+🌐 GitHub: [jubair65](https://github.com/jubair65)
 
 
