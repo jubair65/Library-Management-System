@@ -1,0 +1,39 @@
+/* Style entire TabPane header */
+.tab-pane .tab-header-area {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 8 0 0 0;
+}
+
+/* Equal width tabs */
+.tab-pane .tab-header-area .tab {
+    -fx-pref-width: 150;
+    -fx-max-width: 150;
+    -fx-min-width: 150;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #ddd transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-padding: 10 15;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555;
+}
+
+/* Selected Tab */
+.tab-pane .tab-header-area .tab:selected {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #0078d7 transparent;
+    -fx-text-fill: #0078d7;
+}
+
+/* Hover on Tab */
+.tab-pane .tab-header-area .tab:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #0078d7;
+    -fx-cursor: hand;
+}
+
+/* Tab content area */
+.tab-pane .tab-content-area {
+    -fx-background-color: white;
+    -fx-padding: 16;
+}
